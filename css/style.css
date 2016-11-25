@@ -1,0 +1,131 @@
+  body {
+  margin: 0
+  padding: 0;
+  color: white;
+  background-color: #42d9f4;
+  font-size: 20px;
+  font-family: "BankGothic Md Bt";
+  background-image: url(../img/bg.jpg);
+  box-sizing: border-box;
+}
+
+
+#nav {
+  width: 100%;
+  height: 60px;
+  background-color: black;
+  background-image: url(../img/bgNav.png);
+  box-shadow:
+  0 10px 20px rgba(10,30,0,0.22), 
+  0 10px 10px rgba(20,30,0,0.23);
+}
+
+h1 {
+  text-align:center;
+}
+#wrapper {
+  width: 1170px;
+  margin: 0 70px;
+
+}
+#nav ul{
+  padding-top: 10px;
+  padding-left: 300px;
+}
+
+#nav ul li{
+  text-align: center;
+  display: inline;
+  margin-right: 30px;
+  text-transform: uppercase;
+}
+
+#nav ul li a{
+  
+  text-decoration: none;
+  display: inline;
+  font-size: 32px;
+  transition-duration: 1s;
+  
+}
+
+a:hover{
+  color: red;
+  font-size: 38px;
+  
+}
+
+a:visited{
+  color: purple;
+}
+
+
+#ozil{
+  border: 3px solid black;
+}
+
+.siderBarRight{
+  width: 171;
+  height: 300px;
+  background-color: red;
+  position: absolute;
+  top: 170px;
+  right: 162px;
+
+}
+
+#content{
+  padding-right: 250px;
+}
+
+.futbolki {
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 1040px;
+  margin: 0 auto;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 10px;
+  height: auto;
+  border: 10px solid red;
+  padding: 10px;
+  box-shadow: 0 3px 6px rgba(320,406,106,0.2), 0 3px 6px rgba(349,143,443,0.5);
+}
+
+.box p{
+  font-family: 'Gill Sans MT';
+  font-size: 1.4em;
+  padding: 10px;
+  color: white;
+  width: 224.63px;
+  height: 276px;
+}
+
+.box img{
+  width: 180px;
+}
+
+button{
+  width: 100%;
+  height: 60px;
+  font-size: 1.3em;
+  text-transform: uppercase;
+  font-family: 'BankGothic Md Bt';
+  border: none;
+  border: 1px solid #2d4053;
+  outline: none;
+  cursor: pointer;
+  transition-property: background;
+  transition-timing-function: ease;
+  transition-duration: 0.8s;
+}
